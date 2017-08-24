@@ -39,10 +39,6 @@ private:
     }
 
 public:
-    void init() 
-    {
-        clear();
-    }
     void recover()
     {
         size_t curr = _real_data[LINK_LIST]._next;
